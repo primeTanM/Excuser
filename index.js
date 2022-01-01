@@ -14,16 +14,25 @@ app.get('/', function (req, res) {
     res.send('<h1>Excuse Generator</h1>');
 });
 
-app.get('/v1/excuse/:num?', function (req, res) {
-    res.send(excusesRepository.getRandom(req.params.num || 1));
+app.get('/v1', function (req, res) {
+    res.send('<h1>This is ithe initial verison...</h1>');
 });
+
 
 app.get('/v1/excuse/id/:num', function(req, res) {
     res.send(excusesRepository.getByID(req.params.num));
 });
 
-app.get('/v1/excuse/:category/:num?', function (req, res) {
-    res.send(excusesRepository.getByCategory(req.params.category, req.params.num || 1));
+app.get('/v1/excuse/family/:num?', function (req, res, next) {
+    res.send(excusesRepository.getByCategory("family", req.params.num || 1));
+});
+
+app.get('/v1/excuse/office/:num?', function (req, res, next) {
+    res.send(excusesRepository.getByCategory("office", req.params.num || 1));
+});
+
+app.get('/v1/excuse/:num?', function (req, res, next) {
+    res.send(excusesRepository.getRandom(req.params.num || 1));
 });
 
 app.listen(port, function () {
