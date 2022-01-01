@@ -18,19 +18,22 @@ app.get('/v1', function (req, res) {
     res.send('<h1>This is ithe initial verison...</h1>');
 });
 
-
+// returns the excuse having the specific id
 app.get('/v1/excuse/id/:num', function(req, res) {
     res.send(excusesRepository.getByID(req.params.num));
 });
 
+// returns family related excuses
 app.get('/v1/excuse/family/:num?', function (req, res, next) {
     res.send(excusesRepository.getByCategory("family", req.params.num || 1));
 });
 
+// returns work related excuses
 app.get('/v1/excuse/office/:num?', function (req, res, next) {
     res.send(excusesRepository.getByCategory("office", req.params.num || 1));
 });
 
+// returns random excuses
 app.get('/v1/excuse/:num?', function (req, res, next) {
     res.send(excusesRepository.getRandom(req.params.num || 1));
 });
