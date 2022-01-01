@@ -45,7 +45,7 @@ module.exports = [
             },
             {
                 id:9,
-                excuse:"That was today? I’m very sorry guys, but I promised my wife that we’d do a date night tonight.",
+                excuse:"That was today? I'm very sorry guys, but I promised my wife that we'd do a date night tonight.",
                 category:"family",
             },
             {
@@ -158,5 +158,113 @@ module.exports = [
                 id:210,
                 excuse:"Doctor told me that I have a big worm in my stomach.",
                 category:"children",
-            }
+            },
+
+            // College
+
+            {
+                id:301,
+                excuse:"I forgot my driving license and got in a heated argument with Traffic police.",
+                category:"college",
+            },
+            {
+                id:302,
+                excuse:"As my parents were not home so I went to drop off my little brother at school.",
+                category:"college",
+            },
+            {
+                id:303,
+                excuse:"I think due to parting last night I got suffered from food posioning.",
+                category:"college",
+            },
+            {
+                id:304,
+                excuse:"My parents scolded me a lot about my behaviour towards little brother.",
+                category:"college",
+            },
+            {
+                id:305,
+                excuse:"My neighbourhood met with an accident and I was the only person who was near the accident.",
+                category:"college",
+            },
+            {
+                id:306,
+                excuse:"Due to heavy rain, the roads around my area were closed.",
+                category:"college",
+            },
+            {
+                id:307,
+                excuse:"A big theft happened in my house. Gotta look after my stuff.",
+                category:"college",
+            },
+            {
+                id:308,
+                death:"My grandmother passed away today morning.",
+                category:"college",
+            },
+            {
+                id:309,
+                excuse:"Me along with my parents went to a funeral of my grandmother.",
+                category:"college",
+            },
+            {
+                id:310,
+                excuse:"My grandfather had a heart attack. I had to take him to the hospital.",
+                category:"college",
+            },
+
+            // Party
+
+            {
+                id:401,
+                excuse:"My brother can't pick up my in-laws at the airport, so I'll have to go in his place to get them",
+                category:"party",
+            },
+            {   
+                id:402,
+                excuse:"I have the worst migraine. Yeah, I don't think that I'll be able to make it to your party tonight.",
+                category:"party",
+            },
+            {
+                id:403,
+                excuse:"“I went too hard last night at my friend's party. Too tired right now. I'm going to have to sit this one out.",
+                category:"party",
+            },
+            {
+                id:404,
+                excuse:"My friend's parents are going to be out of town for a week. I'm going to have to take him to the hospital.",
+                category:"party",
+            },
+            {
+                id:405,
+                excuse:"“I was about to drive out, but I realized quickly that I had a flat tire. My mechanic said that he won't be able to send anyone here until the morning.",
+                category:"party",
+            },
+            {
+                id:406,
+                excuse:"My baby sitter canceled on me at the very last minute. Im trying to find someone else, but I highly doubt that I'll get one to come over on such short notice",
+                category:"party",
+            },
+            {
+                id:407,
+                excuse:"I was on my way to the party when I got a call from my sister who had an accident. I'm sorry that I have to miss your party, but I need to be by her side right now.",
+                category:"party",
+            },
+            {
+                id:408,
+                excuse:"My boss just called me saying that I need to get on a flight for an emergency meeting. I can't miss this one, but I'll send your gift to your P.O box.",
+                category:"party",
+            },
+            {
+                id:409,
+                excuse:"My team just had our work schedules change, and I'm set to go in at 6 AM tomorrow.",
+                category:"party",
+            },
+            {
+                id:410,
+                excuse:"That was today? I'm very sorry guys, but I promised my wife that we'd do a date night tonight.",
+                category:"party",
+            },     
+
+
     ];
