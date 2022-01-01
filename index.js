@@ -23,6 +23,12 @@ app.get('/v1/excuse/id/:num', function(req, res) {
     res.send(excusesRepository.getByID(req.params.num));
 });
 
+// returns random excuses
+app.get('/v1/excuse/:num?', function (req, res, next) {
+    res.send(excusesRepository.getRandom(req.params.num || 1));
+});
+
+
 // returns family related excuses
 app.get('/v1/excuse/family/:num?', function (req, res, next) {
     res.send(excusesRepository.getByCategory("family", req.params.num || 1));
@@ -33,10 +39,11 @@ app.get('/v1/excuse/office/:num?', function (req, res, next) {
     res.send(excusesRepository.getByCategory("office", req.params.num || 1));
 });
 
-// returns random excuses
-app.get('/v1/excuse/:num?', function (req, res, next) {
-    res.send(excusesRepository.getRandom(req.params.num || 1));
+// returns children related excuses
+app.get('/v1/excuse/children/:num?', function (req, res, next) {
+    res.send(excusesRepository.getByCategory("children", req.params.num || 1));
 });
+
 
 app.listen(port, function () {
     console.log('Server running on port', port);
