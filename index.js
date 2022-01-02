@@ -12,7 +12,7 @@ app.all("*", function (req, res, next) {
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "views/index.html"));
+  res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 app.get("/v1", function (req, res) {
