@@ -9,8 +9,10 @@ app.all("*", function (req, res, next) {
   next();
 });
 
+app.use(express.static(path.join(__dirname, "public")));
+
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "views/index.html"));
 });
 
 app.get("/v1", function (req, res) {
@@ -27,7 +29,7 @@ app.get("/v1/excuse/:num(\\d+)?", function (req, res, next) {
   res.send(excusesRepository.getRandom(req.params.num || 1));
 });
 
-// returns escuse based on specific category
+// returns excuse based on specific category
 app.get("/v1/excuse/:category", function (req, res, next) {
     res.send(excusesRepository.getByCategory(req.params.category, 1));
   });
