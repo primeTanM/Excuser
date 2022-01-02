@@ -104,6 +104,10 @@ footer {
   margin-bottom: 2rem;
 }
 
+.PS a{
+  color: rgb(73, 137, 209);
+}
+
 .authors{
     display: flex;
     flex-direction: row;
