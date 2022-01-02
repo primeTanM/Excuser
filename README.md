@@ -1,2 +1,4 @@
 # ExcuserAPI
-An attempt to make Excuser API which containing 1001 different excuses.
+An attempt to make Excuser API which containing different excuses related to various situations.
+
+## https://excuser.herokuapp.com/
