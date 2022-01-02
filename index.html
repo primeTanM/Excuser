@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Excuser</title>
 </head>
+
 <body>
-    This is the index page of Excuser API.
+    <nav>Excuser API : One spot to find all excuses !</nav>
+
+    <h1>Documentation</h1>
+    <p class="documentation">
+        This API is a simple excuse generator. It's a simple API that allows you to get a random excuse. You can use it to get random excuses for a specific person or a specific event. It is free to use. No need to sign up for any account or API key.
+        <!-- This project was made by us as an effort to learn how to create APIs using
+      Express.js. <br /> -->
+    </p>
+
+
+    <h2>Categories Available</h2>
+    <p class="categories">
+        The categories available are:
+    </p>
+    <ul>
+        <li>
+            <a href="">
+                <span class="span-left">Family</span><span class="span-right"> (id range 1-10) </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="span-left">  Office</span><span class="span-right"> (id range 101-110) </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="span-left">Children</span class="span-right"> <span> (id range 201-210) </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="span-left">Party</span> <span class="span-right"> (id range 301-310) </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <span class="span-left">College</span> <span class="span-right"> (id range 401-410) </span>
+            </a>
+        </li>
+    </ul>
+
+    <h2>Usage</h2>
+
+    <h3>Get a random excuse</h6>
+        <p class="usage">
+            <code>localhost:3000/v1/excuse</code>
+        </p>
+
+    <h3>Get a specific excuse having specific id</h3>
+        <p class="usage">
+            <code>localhost:3000/v1/excuse/:id</code>
+        </p>
+
+    <h3>Get n random excuses</h3>
+        <p class="usage">
+            <code>localhost:3000/v1/excuse/:n</code>
+        </p>
+           
+    <h3>Get a random excuse for a specific category</h3>
+        <p class="usage">
+            <code>localhost:3000/v1/excuse/:category</code>
+        </p>
+
+    <h3>Get n random excuses for a specific category</h3>
+        <p class="usage">
+            <code>localhost:3000/v1/excuse/:category/:n</code>
+        </p>
+
+
+
 </body>
+
 </html>
