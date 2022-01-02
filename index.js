@@ -24,10 +24,10 @@ app.get("/v1/excuse/id/:num(\\d+)?", function (req, res) {
 
 // returns random excuses
 app.get("/v1/excuse/:num(\\d+)?", function (req, res, next) {
-    // res.send("hello");
   res.send(excusesRepository.getRandom(req.params.num || 1));
 });
 
+// returns escuse based on specific category
 app.get("/v1/excuse/:category", function (req, res, next) {
     res.send(excusesRepository.getByCategory(req.params.category, 1));
   });
