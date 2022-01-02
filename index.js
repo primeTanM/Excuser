@@ -1,7 +1,8 @@
-var express = require("express");
-var excusesRepository = require("./excuseRepository");
-var app = express();
-var port = process.env.PORT || 3000;
+const express = require("express");
+const path = require("path");
+const excusesRepository = require("./excuseRepository");
+const app = express();
+const port = process.env.PORT || 3000;
 
 app.all("*", function (req, res, next) {
   res.set("Access-Control-Allow-Origin", "*");
@@ -9,7 +10,7 @@ app.all("*", function (req, res, next) {
 });
 
 app.get("/", function (req, res) {
-  res.send("<h1>Excuse Generator</h1>");
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.get("/v1", function (req, res) {
