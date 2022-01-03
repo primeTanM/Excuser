@@ -104,20 +104,100 @@ footer {
   margin-bottom: 2rem;
 }
 
-.PS a{
+.PS a {
   color: rgb(73, 137, 209);
 }
 
-.authors{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 2rem;
+.authors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
 img {
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
+}
+
+@media screen and (max-width: 444px) {
+  nav {
+    height: 8vh;
+    line-height: 4vh;
+    font-size: 1.5em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    width: 85%;
+  }
+
+  h1 {
+    margin-top: 22%;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 0.9em;
+  }
+
+
+  .documentation,
+  .categories,
+  .usage,
+  footer {
+    width: 85%;
+  }
+
+  .documentation {
+    font-size: 15px;
+  }
+
+  .categories {
+    font-size: 15px;
+  }
+
+  .usage {
+    font-size: 13px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+
+  ul {
+    font-size: 15px;
+    padding-left: 0rem;
+  }
+
+  .span-left {
+    font-size: 15px;
+  }
+
+  .span-right {
+    font-size: 15px;
+  }
+
+  .PS {
+    font-size: 15px;
+  }
+
+  .authors {
+    padding-bottom: 1rem;
+  }
+
+  img {
+    width: 5rem;
+    height: 5rem;
+  }
 }
