@@ -41,5 +41,5 @@ app.get("/v1/excuse/:category/:num(\\d+)?", function (req, res, next) {
 
 
 app.listen(port, function () {
-  console.log("Server running on port", port);
+  console.log(`Server running on http://localhost:${port}`);
 });
