@@ -122,7 +122,47 @@ img {
   height: 10rem;
 }
 
-@media screen and (max-width: 444px) {
+@media screen and (max-width: 900px) {
+  nav {
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 1.5em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    width: 85%;
+  }
+
+  h1 {
+    margin-top: 22%;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 0.9em;
+  }
+  .documentation,
+  .categories,
+  .usage,
+  footer {
+    width: 85%;
+  }
+
+  ul {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 500px) {
   nav {
     height: 8vh;
     line-height: 4vh;
@@ -151,7 +191,6 @@ img {
     font-size: 0.9em;
   }
 
-
   .documentation,
   .categories,
   .usage,
@@ -177,7 +216,7 @@ img {
 
   ul {
     font-size: 15px;
-    padding-left: 0rem;
+    width: 85%;
   }
 
   .span-left {
@@ -191,13 +230,25 @@ img {
   .PS {
     font-size: 15px;
   }
-
   .authors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
     padding-bottom: 1rem;
   }
-
   img {
     width: 5rem;
     height: 5rem;
+  }
+
+  .kaustubh a, .tanmay a{
+    line-height: 5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
