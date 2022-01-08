@@ -35,7 +35,7 @@ module.exports = [
             },
             {
                 id:7,
-                excuse:"My best friend got an emeergency and I had to take his place.",
+                excuse:"My best friend got an emergency and I had to take his place.",
                 category:"family",
             },
             {
@@ -51,6 +51,65 @@ module.exports = [
             {
                 id:10,
                 excuse:"My colleague's mother passed away",
+                category:"family",
+            },
+            {
+                id:11,
+                excuse:"I have work early tomorrow.",
+                category:"family",
+            },
+
+            {
+                id:12,
+                excuse:"Honestly, I’d rather stay home and read.",
+                category:"family",
+            },
+
+            {
+                id:13,
+                excuse:"Don’t bet on seeing me at the party later. I’ve been throwing up all morning.",
+                category:"family",
+            },
+
+            {
+                id:14,
+                excuse:"I was about to drive out, but I realized quickly that I had a flat tire.",
+                category:"family",
+            },
+
+            {
+                id:15,
+                excuse:"My baby sitter canceled on me at the very last minute",
+                category:"family",
+            },
+
+            {
+                id:16,
+                excuse:"It’s raining cats and dogs out here. I don’t think it’s a good idea to drive in this weather.",
+                category:"family",
+            },
+
+            {
+                id:17,
+                excuse:"I have exams starting tomorrow and I have to devote my time to polish up my preparedness",
+                category:"family",
+            },
+
+            {
+                id:18,
+                excuse:"My cab firm said there won’t be any availability for an hour. ",
+                category:"family",
+            },
+
+            {
+                id:19,
+                excuse:"I would’ve loved to have gone out tonight but I’m currently searching for my wallet.",
+                category:"family",
+            },
+
+            {
+                id:20,
+                excuse:"There has been a drainage issue at my home and I am waiting to be rescued by my plumber",
                 category:"family",
             },
 
@@ -104,6 +163,56 @@ module.exports = [
             {
                 id:110,
                 excuse:"Traffic stopped because of a broken truck.",
+                category:"office",
+            },
+            {
+                id:111,
+                excuse:"I have an dentist appointment.",
+                category:"office",
+            },
+            {
+                id:112,
+                excuse:"Major delivery is expected today and I need to be in-person to receive it.",
+                category:"office",
+            },
+            {
+                id:113,
+                excuse:"I had a family function last night and I am really tired to come at work.",
+                category:"office",
+            },
+            {
+                id:114,
+                excuse:"My specs broke and I cannot see a thing.",
+                category:"office",
+            },
+            {
+                id:115,
+                excuse:"I have come down with a flu due to season change.",
+                category:"office",
+            },
+            {
+                id:116,
+                excuse:"I have to attend Parents Teacher Meeting in my kids' school",
+                category:"office",
+            },
+            {
+                id:117,
+                excuse:"I am having red eyes,since I woke up and I am facing difficulty in watching mobile screen and monitor",
+                category:"office",
+            },
+            {
+                id:118,
+                excuse:"The last bus from my house left early and I have no conveyance.",
+                category:"office",
+            },
+            {
+                id:119,
+                excuse:"I have got work at the bank",
+                category:"office",
+            },
+            {
+                id:120,
+                excuse:"A crime took place in my locality.And police has asked everyone to not leave the premises",
                 category:"office",
             },
 
