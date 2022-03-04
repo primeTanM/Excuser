@@ -20,7 +20,7 @@ module.exports = [
             },
             {
                 id:4,
-                excuse:"My Car broke down",
+                excuse:"My Car broke down.",
                 category:"family",
             },
             {
@@ -30,12 +30,12 @@ module.exports = [
             },
             {
                 id:6,
-                excuse:"I have a really bad case of stomach ache",
+                excuse:"I have a really bad stomach ache",
                 category:"family",
             },
             {
                 id:7,
-                excuse:"My best friend got an emergency and I had to take his place.",
+                excuse:"My best friend got in an accident and I had to take his place.",
                 category:"family",
             },
             {
@@ -73,7 +73,7 @@ module.exports = [
 
             {
                 id:14,
-                excuse:"I was about to drive out, but I realized quickly that I had a flat tire.",
+                excuse:"I was about to drive out, but I realized that I have a flat tire.",
                 category:"family",
             },
 
@@ -91,7 +91,7 @@ module.exports = [
 
             {
                 id:17,
-                excuse:"I have exams starting tomorrow and I have to devote my time to polish up my preparedness",
+                excuse:"I have exams starting tomorrow and I have to devote my time to studying",
                 category:"family",
             },
 
@@ -103,13 +103,13 @@ module.exports = [
 
             {
                 id:19,
-                excuse:"I would’ve loved to have gone out tonight but I’m currently searching for my wallet.",
+                excuse:"I would’ve loved to have gone out tonight but I’m currently looking for my wallet.",
                 category:"family",
             },
 
             {
                 id:20,
-                excuse:"There has been a drainage issue at my home and I am waiting to be rescued by my plumber",
+                excuse:"There has been a drainage issue at my home and I am waiting for my plumber",
                 category:"family",
             },
 
@@ -117,12 +117,12 @@ module.exports = [
 
             {
                 id:101,
-                excuse:"My wife and son were sick and I had to take care of them.",
+                excuse:"My wife and son were sick and I have to take care of them.",
                 category:"office",
             },
             {
                 id:102,
-                excuse:"I had to take care of my dog because he was too sick.",
+                excuse:"I had to take care of my dog because he is sick.",
                 category:"office",
             },
             {
@@ -152,7 +152,7 @@ module.exports = [
             },
             {
                 id:108,
-                excuse:"My parents showed up surprsingly at my house.",
+                excuse:"My parents showed up unannounced at my house.",
                 category:"office",
             },
             {
@@ -167,17 +167,17 @@ module.exports = [
             },
             {
                 id:111,
-                excuse:"I have an dentist appointment.",
+                excuse:"I have a dentist appointment.",
                 category:"office",
             },
             {
                 id:112,
-                excuse:"Major delivery is expected today and I need to be in-person to receive it.",
+                excuse:"A major delivery is expected today and I need to be in-person to receive it.",
                 category:"office",
             },
             {
                 id:113,
-                excuse:"I had a family function last night and I am really tired to come at work.",
+                excuse:"I had a family function last night and I am really tired.",
                 category:"office",
             },
             {
@@ -192,17 +192,17 @@ module.exports = [
             },
             {
                 id:116,
-                excuse:"I have to attend Parents Teacher Meeting in my kids' school",
+                excuse:"I have to attend Parents Teacher meeting for my kids' school",
                 category:"office",
             },
             {
                 id:117,
-                excuse:"I am having red eyes,since I woke up and I am facing difficulty in watching mobile screen and monitor",
+                excuse:"I've had red eyes since I woke up and I am facing difficulty looking at screens",
                 category:"office",
             },
             {
                 id:118,
-                excuse:"The last bus from my house left early and I have no conveyance.",
+                excuse:"The last bus from my house left early and I have no transportation.",
                 category:"office",
             },
             {
@@ -212,7 +212,7 @@ module.exports = [
             },
             {
                 id:120,
-                excuse:"A crime took place in my locality.And police has asked everyone to not leave the premises",
+                excuse:"A crime took place in my locality. And police has asked everyone to not leave the premises",
                 category:"office",
             },
 
@@ -245,7 +245,7 @@ module.exports = [
             },
             {
                 id:206,
-                excuse:"The car is out of gas since yesterday.",
+                excuse:"The car has been out of gas since yesterday.",
                 category:"children",
             },
             {
@@ -273,7 +273,7 @@ module.exports = [
 
             {
                 id:301,
-                excuse:"I forgot my driving license and got in a heated argument with Traffic police.",
+                excuse:"I forgot my driving license and got in a heated argument with traffic police.",
                 category:"college",
             },
             {
@@ -288,7 +288,7 @@ module.exports = [
             },
             {
                 id:304,
-                excuse:"My parents scolded me a lot about my behaviour towards little brother.",
+                excuse:"My parents scolded me a lot about my behaviour towards my little brother.",
                 category:"college",
             },
             {
@@ -326,7 +326,7 @@ module.exports = [
 
             {
                 id:401,
-                excuse:"My brother can't pick up my in-laws at the airport, so I'll have to go in his place to get them",
+                excuse:"My brother can't pick up my in-laws at the airport, so I'll have to go in his place.",
                 category:"party",
             },
             {   
@@ -336,7 +336,7 @@ module.exports = [
             },
             {
                 id:403,
-                excuse:"“I went too hard last night at my friend's party. Too tired right now. I'm going to have to sit this one out.",
+                excuse:"“I went too hard at my friend's party last night. Too tired right now. I'm going to have to sit this one out.",
                 category:"party",
             },
             {
