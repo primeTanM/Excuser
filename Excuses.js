@@ -308,7 +308,7 @@ module.exports = [
             },
             {
                 id:308,
-                death:"My grandmother passed away today morning.",
+                excuse:"My grandmother passed away today morning.",
                 category:"college",
             },
             {
