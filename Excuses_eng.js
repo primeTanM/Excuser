@@ -331,7 +331,7 @@ module.exports = [
     },
     {
         id: 305,
-        excuse: "My neighbourhood met with an accident and I was the only person who was near the accident.",
+        excuse: "My neighbor met with an accident and I was the only person who was near the accident.",
         category: "college",
     },
     {
