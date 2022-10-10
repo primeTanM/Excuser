@@ -29,10 +29,6 @@ app.get("/v1/excuse/:num(\\d+)?", function (req, res, next) {
   res.send(excusesRepository.getRandom(req.params.num || 1, req.headers['language']));
 });
 
-app.get("/:category", function (req, res, next) {
-  res.send(excusesRepository.getByCategory(req.params.category, 1, req.headers['language']));
-});
-
 // returns excuse based on specific category
 app.get("/v1/excuse/:category", function (req, res, next) {
   res.send(excusesRepository.getByCategory(req.params.category, 1, req.headers['language']));
