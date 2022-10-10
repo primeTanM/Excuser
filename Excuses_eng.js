@@ -462,4 +462,86 @@ module.exports = [
         excuse: "I really want to come but I have a screaming yeast infection and I don't want to stand around all night scratching my crotch. I really hope you understand.",
         category: "party",
     },
+
+    //---------Funny----------
+    {
+        id: 501,
+        excuse: "I had a fever the next day.",
+        category: "funny",
+    },
+    {
+        id: 502,
+        excuse: "My car radio was broken, and I couldn't drive if I didn't have music.",
+        category: "funny",
+    },
+    {
+        id: 503,
+        excuse: "I heard there will be a thunderstorm today.",
+        category: "funny",
+    },
+    {
+        id: 504,
+        excuse: "The alarm betrayed me today.",
+        category: "funny",
+    },
+    {
+        id: 505,
+        excuse: "I was passing by a school lane so I was driving slow.",
+        category: "funny",
+    },
+    {
+        id: 506,
+        excuse: "I had visitors at home!",
+        category: "funny",
+    },
+    {
+        id: 507,
+        excuse: "Her hair dryer was shorted out so she needed to wait till her hair was dry.",
+        category: "funny",
+    },
+    {
+        id: 508,
+        excuse: "Clothes were dirty today, so I did laundry work first.",
+        category: "funny",
+    },
+    {
+        id: 509,
+        excuse: "A cat crossed my path.",
+        category: "funny",
+    },
+    {
+        id: 510,
+        excuse: "I was by mistake locked inside the house, so took help from neighbours.",
+        category: "funny",
+    },
+    {
+        id: 511,
+        excuse: "I was riding my solar power scooter and suddenly it started raining and my scooter stopped working.",
+        category: "funny",
+    },
+    {
+        id: 512,
+        excuse: "The left signal of my car was not working, so I only took right to reach to the office.",
+        category: "funny",
+    },
+    {
+        id: 513,
+        excuse: "I saw a firetruck on my way so I had a doubt and to clarify I went back home to check.",
+        category: "funny",
+    },
+    {
+        id: 514,
+        excuse: "I saw many strangers following my car so I took the longest route possible to reach today.",
+        category: "funny",
+    },
+    {
+        id: 515,
+        excuse: "My trimmer stopped working yesterday and yesterday It was Monday.",
+        category: "funny",
+    },
+    {
+        id: 516,
+        excuse: "I drove to the previous employer yesterday.",
+        category: "funny",
+    },
 ];
