@@ -544,4 +544,81 @@ module.exports = [
         excuse: "I drove to the previous employer yesterday.",
         category: "funny",
     },
+
+    //----------Developers--------
+    {
+        id: 701,
+        excuse: "There is a bug in this code, but I don't know which bug I'm talking about.",
+        category: "developers",
+    },
+    {
+        id: 702,
+        excuse: "The coffee machine stopped working today!",
+        category: "developers",
+    },
+    {
+        id: 703,
+        excuse: "I don't know how to turn coffee into code.",
+        category: "developers",
+    },
+    {
+        id: 704,
+        excuse: "My friend told me that there's no place like 127.0.0.1 so I went to see if there exists such place.",
+        category: "developers",
+    },
+    {
+        id: 705,
+        excuse: "It works on my machine.",
+        category: "developers",
+    },
+    {
+        id: 706,
+        excuse: "When someone asked me about my blood group, I told him that I'm a code blooded person.",
+        category: "developers",
+    },
+    {
+        id: 707,
+        excuse: "HR asked me why you are late, I told her that I'm an ID.",
+        category: "developers",
+    },
+    {
+        id: 708,
+        excuse: "My aunt told me to fix her computer, so I got late today.",
+        category: "developers",
+    },
+    {
+        id: 709,
+        excuse: "I got cursed because someone reviewed my code.",
+        category: "developers",
+    },
+    {
+        id: 710,
+        excuse: "I was told to declare a war, but I only know how to declare variables.",
+        category: "developers",
+    },
+    {
+        id: 711,
+        excuse: "It's not a bug, it's a feature.",
+        category: "developers",
+    },
+    {
+        id: 712,
+        excuse: "My wifi wasn't working, so I went to find a hot-spot i.e Sun",
+        category: "developers",
+    },
+    {
+        id: 713,
+        excuse: "We are not in the same version, hence there is a conflict.",
+        category: "developers",
+    },
+    {
+        id: 714,
+        excuse: "I don't know how to code in python, I was hired because, python is in my horoscope.",
+        category: "developers",
+    },
+    {
+        id: 715,
+        excuse: "It must be a hardware issue, not my code problem.",
+        category: "developers",
+    },
 ];
