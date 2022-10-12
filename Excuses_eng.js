@@ -545,6 +545,74 @@ module.exports = [
         category: "funny",
     },
 
+    //----------Unbelievable Excuses----------
+    {
+        id: 601,
+        excuse: "Oh, sorry, I just put a casserole in the oven.",
+        category: "unbelievable",
+    },
+    {
+        id: 602,
+        excuse: "I got some plastic surgery enhancement done, but it needs a little tweaking to get right.",
+        category: "unbelievable",
+    },
+    {
+        id: 603,
+        excuse: "I sat in the bathroom too long and my legs and feet fell asleep, so when I finally stood up, I fell over and broke my ankle.",
+        category: "unbelievable",
+    },
+    {
+        id: 604,
+        excuse: "It was a big casino weekend for me, so imagine my surprise that I still had some money left to play with on Monday morning.",
+        category: "unbelievable",
+    },
+    {
+        id: 605,
+        excuse: "I woke up in such a good mood that I didn't want to ruin it.",
+        category: "unbelievable",
+    },
+    {
+        id: 606,
+        excuse: "Sorry, I got lucky last night, but I woke up and have no idea where I am.",
+        category: "unbelievable",
+    },
+    {
+        id: 607,
+        excuse: "I was taking my blood pressure with the machine at the grocery store and got stuck and couldn't get out.",
+        category: "unbelievable",
+    },
+    {
+        id: 608,
+        excuse: "I've got a gallstone and am trying to heal it holistically.",
+        category: "unbelievable",
+    },
+    {
+        id: 609,
+        excuse: "My uniform was still wet, so I put it in the microwave to dry and it caught on fire.",
+        category: "unbelievable",
+    },
+    {
+        id: 610,
+        excuse: "Really sorry, but I accidentally got on a plane and I'm not in town.",
+        category: "unbelievable",
+    },
+    {
+        id: 611,
+        excuse: "I'm on the moon and coming back to the sun.",
+        category: "unbelievable" ,
+    },
+    {
+        id: 612,
+        excuse: "Yesterday, the date was supposed to be 30th February so the whole day, I was figuring out the calendar.",
+        category: "unbelievable" ,
+    },
+    {
+        id: 613,
+        excuse: "The earth stopped revolving yesterday, so I got freezed at one place.",
+        category: "unbelievable" ,
+    },
+
+
     //----------Developers--------
     {
         id: 701,
