@@ -16,7 +16,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/v1", function (req, res) {
-  res.send("<h1>This is the initial version...</h1>");
+  res.status(404).send( " <h1>Please enter complete URL <br> <a href='/'>Click here to go to home page</a></h1>"    );
 });
 
 // returns the excuse having the specific id
@@ -39,6 +39,9 @@ app.get("/v1/excuse/:category/:num(\\d+)?", function (req, res, next) {
   res.send(excusesRepository.getByCategory(req.params.category, req.params.num || 1, req.headers['language']));
 });
 
+app.get("*", function (req, res) {
+  res.status(404).send(" <h1>404 - Page not found <br> <a href='/'>Click here to go to home page</a></h1>");
+});
 
 app.listen(port, function () {
   console.log(`Server running on http://localhost:${port}`);
