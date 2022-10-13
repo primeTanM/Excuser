@@ -116,10 +116,56 @@ footer {
   padding-bottom: 2rem;
 }
 
+
+.cHead {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 0%;
+}
+
+.cN {
+  font-size: 0.7vw;
+}
+
 img {
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
+}
+@media screen  and (min-width : 501px) {
+  .cImg {
+    border-radius: 50%;
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+}
+
+.cbrs{ 
+  height: 50vh;
+}
+.contributors{ 
+  width: 80vw; 
+  height: auto; 
+  margin: auto;
+  display: flex;  
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.headingC {
+  font-size: 1.95rem;
+  padding: 20px 0;
+  text-align: center;
+  color: #000;
+}
+.user{
+  flex:1 1 200px;
+  margin: 20px;
+}
+
+@media (max-width: 768px){
+  .cbrs{
+    height: auto; 
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -243,12 +289,26 @@ img {
     height: 5rem;
   }
 
+  .cImg{
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
   .kaustubh a, .tanmay a{
-    line-height: 5rem;
+    line-height: 6rem;
     display: flex;
     gap: 1rem;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
+  .user a {
+    line-height: 5rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
 }
