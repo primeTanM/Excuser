@@ -693,14 +693,9 @@ module.exports = [
 
     //----------Gaming--------
     {
-        id: 800,
+        id: 801,
         excuse: "Im lagging",
         category: "gaming",
-    },
-    {
-        id: 801,
-        excuse: "I have stuttering",
-        category: "gaming"
     },
     {
         id: 802,
@@ -709,7 +704,7 @@ module.exports = [
     },
     {
         id: 803,
-        excuse: "I swear i clicked!",
+        excuse: "I swear I clicked!",
         category: "gaming"
     },
     {
@@ -744,17 +739,17 @@ module.exports = [
     },
     {
         id: 810,
-        excuse: "Im not bad, im chilling",
+        excuse: "I'm not bad, I'm chilling",
         category: "gaming"
     },
     {
         id: 811,
-        excuse: "This game sound is so bad that i didnt hear they comming",
+        excuse: "This game sound is so bad that I didnt hear they comming",
         category: "gaming"
     },
     {
         id: 812,
-        excuse: "They had better guns, thats why they killed me",
+        excuse: "They had better guns, that's why they killed me",
         category: "gaming"
     },
     {
@@ -769,22 +764,22 @@ module.exports = [
     },
     {
         id: 815,
-        excuse: "Sorry i was in the bathroom",
+        excuse: "Sorry, I was in the bathroom",
         category: "gaming"
     },
     {
         id: 816,
-        excuse: "I run out of bullets",
+        excuse: "I ran out of bullets",
         category: "gaming"
     },
     {
         id: 817,
-        excuse: "I didnt have a gun",
+        excuse: "I didn't have a gun",
         category: "gaming"
     },
     {
         id: 818,
-        excuse: "My headphones truend off",
+        excuse: "My headphones turned off",
         category: "gaming"
     },
     {
@@ -794,7 +789,7 @@ module.exports = [
     },
     {
         id: 820,
-        excuse: "It was playing my brother",
+        excuse: "It was my brother who was playing",
         category: "gaming"
     }
 ];
