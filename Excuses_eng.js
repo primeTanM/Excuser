@@ -689,4 +689,107 @@ module.exports = [
         excuse: "It must be a hardware issue, not my code problem.",
         category: "developers",
     },
+
+
+    //----------Gaming--------
+    {
+        id: 801,
+        excuse: "Im lagging",
+        category: "gaming",
+    },
+    {
+        id: 802,
+        excuse: "My mouse is not working",
+        category: "gaming"
+    },
+    {
+        id: 803,
+        excuse: "I swear I clicked!",
+        category: "gaming"
+    },
+    {
+        id: 804,
+        excuse: "The game ate my bullet",
+        category: "gaming"
+    },
+    {
+        id: 805,
+        excuse: "I was talking to my mom",
+        category: "gaming"
+    },
+    {
+        id: 806,
+        excuse: "My mouse is running out of battery",
+        category: "gaming"
+    },
+    {
+        id: 807,
+        excuse: "My internet is so bad",
+        category: "gaming"
+    },
+    {
+        id: 808,
+        excuse: "My joystick is not working",
+        category: "gaming"
+    },
+    {
+        id: 809,
+        excuse: "My joystick is running out of battery",
+        category: "gaming"
+    },
+    {
+        id: 810,
+        excuse: "I'm not bad, I'm chilling",
+        category: "gaming"
+    },
+    {
+        id: 811,
+        excuse: "This game sound is so bad that I didnt hear they comming",
+        category: "gaming"
+    },
+    {
+        id: 812,
+        excuse: "They had better guns, that's why they killed me",
+        category: "gaming"
+    },
+    {
+        id: 813,
+        excuse: "I was flashed",
+        category: "gaming"
+    },
+    {
+        id: 814,
+        excuse: "I had a smoke grenade, couldt see anything",
+        category: "gaming"
+    },
+    {
+        id: 815,
+        excuse: "Sorry, I was in the bathroom",
+        category: "gaming"
+    },
+    {
+        id: 816,
+        excuse: "I ran out of bullets",
+        category: "gaming"
+    },
+    {
+        id: 817,
+        excuse: "I didn't have a gun",
+        category: "gaming"
+    },
+    {
+        id: 818,
+        excuse: "My headphones turned off",
+        category: "gaming"
+    },
+    {
+        id: 819,
+        excuse: "Im playing without sound",
+        category: "gaming"
+    },
+    {
+        id: 820,
+        excuse: "It was my brother who was playing",
+        category: "gaming"
+    }
 ];
