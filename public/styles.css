@@ -158,7 +158,8 @@ img {
   text-align: center;
   color: #000;
 }
-.user{
+
+.user {
   flex:1 1 200px;
   margin: 20px;
 }
@@ -197,6 +198,11 @@ img {
   h3 {
     font-size: 0.9em;
   }
+
+  .contributors {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .documentation,
   .categories,
   .usage,
@@ -236,6 +242,10 @@ img {
 
   h3 {
     font-size: 0.9em;
+  }
+
+  .contributors {
+    grid-template-columns: 1fr 1fr;
   }
 
   .documentation,
@@ -309,6 +319,15 @@ img {
     gap: 1rem;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
+  }
+
+  .contributors .user a {
+    line-height: 1rem;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   
