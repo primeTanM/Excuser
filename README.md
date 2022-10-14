@@ -66,7 +66,7 @@ curl https://excuser.herokuapp.com/v1/excuse/college/4 \
 ## Contribute
 ---
 
-1. Look through the existing excuses inside `Excuses_eng.js` to see if your excuse is original
+1. Look through the existing excuses inside `Excuses_eng.js` or `Excuses_pt_br.js` to see if your excuse is original
 2. Go to the `Issues` tab at the top of the GitHub page
 3. Create a New Issue
 4. Contribute your excuse using the format below
