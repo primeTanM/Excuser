@@ -791,5 +791,10 @@ module.exports = [
         id: 820,
         excuse: "It was my brother who was playing",
         category: "gaming"
+    },
+        {
+        id: 820,
+        excuse: "My partner stole my controller!",
+        category: "gaming"
     }
 ];
