@@ -51,6 +51,6 @@ module.exports = {
 function GetExcuseByLanguage(language) {
     if (language && language === 'pt-br')
         return excuses_pt_br;
-
+        
     return excuses_eng;
 }
