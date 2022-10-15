@@ -70,7 +70,7 @@ curl https://excuser.herokuapp.com/v1/excuse/college/4 \
 
 ## Contribute
 ---
-0. Have minimum 10 excuses at least then open a PR. If you want a new category, then minimum 20 excuses at least.
+0. Have minimum 10 excuses at least then open a PR. If you want a new category, then minimum 20 excuses.
 1. Look through the existing excuses inside [`Excuses_eng.js`](https://github.com/primeTanM/Excuser/blob/main/Excuses_eng.js) or [`Excuses_pt_br.js`](https://github.com/primeTanM/Excuser/blob/main/Excuses_pt_br.js) to see if your excuse is original.
 2. Go to the `Issues` tab at the top of the GitHub page.
 3. Create a New Issue.
