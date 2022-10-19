@@ -21,6 +21,14 @@ nav {
   z-index: 1;
 }
 
+@media screen and (max-width: 1200px) {
+  nav {
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 2.2em;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -164,17 +172,12 @@ img {
   margin: 20px;
 }
 
-@media (max-width: 768px){
-  .cbrs{
-    height: auto; 
-  }
-}
 
 @media screen and (max-width: 900px) {
   nav {
     height: 8vh;
-    line-height: 8vh;
-    font-size: 1.5em;
+    line-height: 4vh;
+    font-size: 2.5em;
   }
 
   h1,
@@ -214,6 +217,18 @@ img {
     width: 85%;
   }
 }
+
+@media (max-width: 768px){
+  nav{
+    height: 8vh;
+    line-height: 4vh;
+    font-size: 1.8em;
+  }
+  .cbrs{
+    height: auto; 
+  }
+}
+
 
 @media screen and (max-width: 500px) {
   nav {
