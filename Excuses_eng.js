@@ -791,5 +791,55 @@ module.exports = [
         id: 820,
         excuse: "It was my brother who was playing",
         category: "gaming"
-    }
+    },
+    {
+        id: 821,
+        excuse: "I'm babysitting my neices and they just started screaming",
+        category: "gaming"
+    },
+    {
+        id: 822,
+        excuse: "I threw my controller and couldn't find it.",
+        category: "gaming"
+    },
+    {
+        id: 823,
+        excuse: "My server is lagging cause my girlfriend is watching Netflix",
+        category: "gaming"
+    },
+    {
+        id: 824,
+        excuse: "My dog just threw up in my lap",
+        category: "gaming"
+    },
+    {
+        id: 825,
+        excuse: "My cat climbed on my shoulders",
+        category: "gaming"
+    },
+    {
+        id: 826,
+        excuse: "I forgot which console I was playing on",
+        category: "gaming"
+    },    
+    {
+        id: 827,
+        excuse: "My partner just got home from work and wanted to talk",
+        category: "gaming"
+    },    
+    {
+        id: 828,
+        excuse: "My dog was being too cute and I got distracted",
+        category: "gaming"
+    },    
+    {
+        id: 829,
+        excuse: "The vibes just weren't that good in the game",
+        category: "gaming"
+    },
+    {
+        id: 830,
+        excuse: "My AC isn't working and it's ruining my focus",
+        category: "gaming"
+    },
 ];
