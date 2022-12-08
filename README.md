@@ -1,6 +1,6 @@
 # ExcuserAPI
 
-Creates different excuses related to various situations. It is free to use without any API key. Visit https://excuser.herokuapp.com/ for more instructions.
+Creates different excuses related to various situations. It is free to use without any API key. Visit http://ec2-13-233-208-44.ap-south-1.compute.amazonaws.com/ for more instructions.
 
 ## Maintainers 
 1. [Tanmay Misra](https://github.com/primeTanM)
