@@ -36,35 +36,35 @@ All commands accept a optional param on header to change execuses language.
 Get a random excuse
 
 ```bash
-curl https://excuser.herokuapp.com/v1/excuse \
+curl https://excuser-three.vercel.app/v1/excuse \
 --header 'language: eng' # Optinal Param | Default language is eng (engllish)
 ```
 
 Get a specific excuse with a specific id
 
 ```bash
-curl https://excuser.herokuapp.com/v1/excuse/id/101 \
+curl https://excuser-three.vercel.app/v1/excuse/id/101 \
 --header 'language: eng' # Optinal Param | Default language is eng (engllish)
 ```
 
 Get n random excuses
 
 ```bash
-curl https://excuser.herokuapp.com/v1/excuse/3 \
+curl https://excuser-three.vercel.app/v1/excuse/3 \
 --header 'language: eng' # Optinal Param | Default language is eng (engllish)
 ```
 
 Get a random excuse from a specific category
 
 ```bash
-curl https://excuser.herokuapp.com/v1/excuse/office \
+curl https://excuser-three.vercel.app/v1/excuse/office \
 --header 'language: eng' # Optinal Param | Default language is eng (engllish)
 ```
 
 Get n random excuses from a specific category
 
 ```bash
-curl https://excuser.herokuapp.com/v1/excuse/college/4 \
+curl https://excuser-three.vercel.app/v1/excuse/college/4 \
 --header 'language: eng' # Optinal Param | Default language is eng (engllish)
 ```
 
