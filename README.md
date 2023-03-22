@@ -31,7 +31,7 @@ All commands accept a optional param on header to change execuses language.
 | -------------------   | ---------------------------- |
 |  English              | eng                          |
 |  Brazilian Portuguese | pt-br                        |
-|                       |                              |
+|  Bengali              | ben                          |
 
 Get a random excuse
 
