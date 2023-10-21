@@ -1,6 +1,7 @@
 var excuses_eng = require('./Excuses_eng');
 var excuses_pt_br = require('./Excuses_pt_br');
 var excuses_ben = require('./Excuses_ben');
+var excuses_hin = require('./Excuses_hindi');
 var excuses_french = require('./excuses_french1');
 
 module.exports = {
@@ -55,7 +56,9 @@ function GetExcuseByLanguage(language) {
         return excuses_pt_br;
     else if (language && language === 'ben')
         return excuses_ben;
+    else if (language && language === 'hin')
+        return excuses_hin;
     else if (language && language ==='fren')
-        return excuses_french1;
+        return excuses_french;
     return excuses_eng;
 }
