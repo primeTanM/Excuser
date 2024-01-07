@@ -548,67 +548,67 @@ module.exports = [
     //----------Unbelievable Excuses----------
     {
         id: 601,
-        excuse: "Oh, sorry, I just put a casserole in the oven.",
+        excuse: "Kusura bakma, az önce fırına bir güveç koydum.",
         category: "unbelievable",
     },
     {
         id: 602,
-        excuse: "I got some plastic surgery enhancement done, but it needs a little tweaking to get right.",
+        excuse: "Bazı plastik cerrahi amelayatı geçirdim, ancak biraz ince ayar yapılması gerekiyor.",
         category: "unbelievable",
     },
     {
         id: 603,
-        excuse: "I sat in the bathroom too long and my legs and feet fell asleep, so when I finally stood up, I fell over and broke my ankle.",
+        excuse: "Banyoda çok uzun süre oturdum, bacaklarım ve ayaklarım uyuştı. Ayağa kalktığımda düşüp bileğimi kırdım.",
         category: "unbelievable",
     },
     {
         id: 604,
-        excuse: "It was a big casino weekend for me, so imagine my surprise that I still had some money left to play with on Monday morning.",
+        excuse: "Benim için büyük bir kumarhane hafta sonuydu, bu yüzden Pazartesi sabahı hala oynayacak biraz paramın kalmış olması beni şaşırttı.",
         category: "unbelievable",
     },
     {
         id: 605,
-        excuse: "I woke up in such a good mood that I didn't want to ruin it.",
+        excuse: "O kadar mutlu uyandım ki bunu mahvetmek istemedim.",
         category: "unbelievable",
     },
     {
         id: 606,
-        excuse: "Sorry, I got lucky last night, but I woke up and have no idea where I am.",
+        excuse: "Üzgünüm, dün gece şansım yaver gitti ama uyandım ve nerede olduğum hakkında hiçbir fikrim yok.",
         category: "unbelievable",
     },
     {
         id: 607,
-        excuse: "I was taking my blood pressure with the machine at the grocery store and got stuck and couldn't get out.",
+        excuse: "Markette makineyle tansiyonumu ölçerken sıkıştım ve dışarı çıkamadım.",
         category: "unbelievable",
     },
     {
         id: 608,
-        excuse: "I've got a gallstone and am trying to heal it holistically.",
+        excuse: "Safra taşım var ve bütünsel olarak iyileşmeye çalışıyorum.",
         category: "unbelievable",
     },
     {
         id: 609,
-        excuse: "My uniform was still wet, so I put it in the microwave to dry and it caught on fire.",
+        excuse: "Üniformam ıslaktı. Kurutmak için mikrodalgaya koydum ve alev aldı.",
         category: "unbelievable",
     },
     {
         id: 610,
-        excuse: "Really sorry, but I accidentally got on a plane and I'm not in town.",
+        excuse: "Gerçekten üzgünüm ama yanlışlıkla uçağa bindim ve şu an şehirde değilim.",
         category: "unbelievable",
     },
     {
         id: 611,
-        excuse: "I'm on the moon and coming back to the sun.",
+        excuse: "Aydayım ve güneşe geri dönüyorum.",
         category: "unbelievable" ,
     },
     {
         id: 612,
-        excuse: "Yesterday, the date was supposed to be 30th February so the whole day, I was figuring out the calendar.",
+        excuse: "Dün tarihin 30 Şubat olması gerekiyordu, o yüzden bütün gün takvim hesaplıyordum.",
         category: "unbelievable" ,
     },
     {
         id: 613,
-        excuse: "The earth stopped revolving yesterday, so I got freezed at one place.",
+        excuse: "Dün dünya dönmeyi bıraktı, ben de bir yerde donakaldım.",
         category: "unbelievable" ,
     },
 
@@ -616,77 +616,77 @@ module.exports = [
     //----------Developers--------
     {
         id: 701,
-        excuse: "There is a bug in this code, but I don't know which bug I'm talking about.",
+        excuse: "Bu kodda bir hata var ama hangi hatadan bahsettiğimi bilmiyorum.",
         category: "developers",
     },
     {
         id: 702,
-        excuse: "The coffee machine stopped working today!",
+        excuse: "Kahve makinesi bozuldu.",
         category: "developers",
     },
     {
         id: 703,
-        excuse: "I don't know how to turn coffee into code.",
+        excuse: "Kahveyi nasıl koda dönüştüreceğimi bilmiyorum.",
         category: "developers",
     },
     {
         id: 704,
-        excuse: "My friend told me that there's no place like 127.0.0.1 so I went to see if there exists such place.",
+        excuse: "Arkadaşım 127.0.0.1 kadar iyi bir yer olmadığını söyledi, ben de böyle bir yer var mı diye bakmaya gittim.",
         category: "developers",
     },
     {
         id: 705,
-        excuse: "It works on my machine.",
+        excuse: "Benim makinemde çalışıyor.",
         category: "developers",
     },
     {
         id: 706,
-        excuse: "When someone asked me about my blood group, I told him that I'm a code blooded person.",
+        excuse: "Birisi bana kan grubumu sorduğunda ona kod-kanlı (code-blood) biri olduğumu söyledim.",
         category: "developers",
     },
     {
         id: 707,
-        excuse: "HR asked me why you are late, I told her that I'm an ID.",
+        excuse: "İK bana neden geciktiğini sordu, ben de ona kimlik olduğumu söyledim.",
         category: "developers",
     },
     {
         id: 708,
-        excuse: "My aunt told me to fix her computer, so I got late today.",
+        excuse: "Teyzem bana bilgisayarını tamir etmemi söyledi, bu yüzden bugün geç kaldım.",
         category: "developers",
     },
     {
         id: 709,
-        excuse: "I got cursed because someone reviewed my code.",
+        excuse: "Birisi kodumu gözden geçirdiği için lanetlendim.",
         category: "developers",
     },
     {
         id: 710,
-        excuse: "I was told to declare a war, but I only know how to declare variables.",
+        excuse: "Bana savaş ilan etmem söylendi ama ben sadece nasıl değişken ilan edeceğimi biliyorum.",
         category: "developers",
     },
     {
         id: 711,
-        excuse: "It's not a bug, it's a feature.",
+        excuse: "Bu bir hata değil, bir özellik.",
         category: "developers",
     },
     {
         id: 712,
-        excuse: "My wifi wasn't working, so I went to find a hot-spot i.e Sun",
+        excuse: "Wifi'im çalışmıyordu, bu yüzden bir hotspot bulmaya gittim, yani güneşe.",
         category: "developers",
     },
     {
         id: 713,
-        excuse: "We are not in the same version, hence there is a conflict.",
+        excuse: "Aynı versiyonda değiliz, dolayısıyla bir çelişki var.",
         category: "developers",
     },
     {
         id: 714,
-        excuse: "I don't know how to code in python, I was hired because, python is in my horoscope.",
+        excuse: "Python'da nasıl kod yazacağımı bilmiyorum, işe alındım çünkü python benim burcum.",
         category: "developers",
     },
     {
         id: 715,
-        excuse: "It must be a hardware issue, not my code problem.",
+        excuse: "Kod sorunu değil, donanım sorunu olmalı.",
         category: "developers",
     },
 
@@ -694,152 +694,152 @@ module.exports = [
     //----------Gaming--------
     {
         id: 801,
-        excuse: "Im lagging",
+        excuse: "Lag var.",
         category: "gaming",
     },
     {
         id: 802,
-        excuse: "My mouse is not working",
+        excuse: "Farem çalışmıyor.",
         category: "gaming"
     },
     {
         id: 803,
-        excuse: "I swear I clicked!",
+        excuse: "Tıkladığıma yemin ederim!",
         category: "gaming"
     },
     {
         id: 804,
-        excuse: "The game ate my bullet",
+        excuse: "Oyun mermimi yedi.",
         category: "gaming"
     },
     {
         id: 805,
-        excuse: "I was talking to my mom",
+        excuse: "Annemle konuşuyordum.",
         category: "gaming"
     },
     {
         id: 806,
-        excuse: "My mouse is running out of battery",
+        excuse: "Faremin pili bitiyor.",
         category: "gaming"
     },
     {
         id: 807,
-        excuse: "My internet is so bad",
+        excuse: "İnternetim çok kötü.",
         category: "gaming"
     },
     {
         id: 808,
-        excuse: "My joystick is not working",
+        excuse: "Joystick'im çalışmıyor.",
         category: "gaming"
     },
     {
         id: 809,
-        excuse: "My joystick is running out of battery",
+        excuse: "Joystick'imin pili bitiyor.",
         category: "gaming"
     },
     {
         id: 810,
-        excuse: "I'm not bad, I'm chilling",
+        excuse: "Kötü değilim, kasmadan oynuyorum.",
         category: "gaming"
     },
     {
         id: 811,
-        excuse: "This game sound is so bad that I didnt hear they comming",
+        excuse: "Bu oyunun sesi o kadar kötü ki geldiklerini duymadım.",
         category: "gaming"
     },
     {
         id: 812,
-        excuse: "They had better guns, that's why they killed me",
+        excuse: "Daha iyi silahları vardı, bu yüzden beni öldürdüler.",
         category: "gaming"
     },
     {
         id: 813,
-        excuse: "I was flashed",
+        excuse: "Flaş bombası attılar.",
         category: "gaming"
     },
     {
         id: 814,
-        excuse: "I had a smoke grenade, couldt see anything",
+        excuse: "Sis attılar, hiçbir şey göremedim.",
         category: "gaming"
     },
     {
         id: 815,
-        excuse: "Sorry, I was in the bathroom",
+        excuse: "Kusura bakmayın lavabodaydım.",
         category: "gaming"
     },
     {
         id: 816,
-        excuse: "I ran out of bullets",
+        excuse: "Mermim bitti.",
         category: "gaming"
     },
     {
         id: 817,
-        excuse: "I didn't have a gun",
+        excuse: "Silahım yoktu.",
         category: "gaming"
     },
     {
         id: 818,
-        excuse: "My headphones turned off",
+        excuse: "Kulaklığımın sesi kesildi.",
         category: "gaming"
     },
     {
         id: 819,
-        excuse: "Im playing without sound",
+        excuse: "Ses kapalı oynuyorum.",
         category: "gaming"
     },
     {
         id: 820,
-        excuse: "It was my brother who was playing",
+        excuse: "Oynayan kardeşimdi.",
         category: "gaming"
     },
     {
         id: 821,
-        excuse: "I'm babysitting my neices and they just started screaming",
+        excuse: "Yeğenlerime bakıcılık yapıyorum ve çığlık atmaya başladılar.",
         category: "gaming"
     },
     {
         id: 822,
-        excuse: "I threw my controller and couldn't find it.",
+        excuse: "Oyun kolunu fırlattım ve bulamıyorum.",
         category: "gaming"
     },
     {
         id: 823,
-        excuse: "My server is lagging cause my girlfriend is watching Netflix",
+        excuse: "Kız arkadaşım Netflix izlediği için lag oluyor.",
         category: "gaming"
     },
     {
         id: 824,
-        excuse: "My dog just threw up in my lap",
+        excuse: "Köpeğim az önce kucağıma kustu.",
         category: "gaming"
     },
     {
         id: 825,
-        excuse: "My cat climbed on my shoulders",
+        excuse: "Kedim omuzuma tırmandı.",
         category: "gaming"
     },
     {
         id: 826,
-        excuse: "I forgot which console I was playing on",
+        excuse: "Hangi konsolda oynadığımı unuttum.",
         category: "gaming"
     },    
     {
         id: 827,
-        excuse: "My partner just got home from work and wanted to talk",
+        excuse: "Eşim işten yeni geldi ve sohbet etmek istedi.",
         category: "gaming"
     },    
     {
         id: 828,
-        excuse: "My dog was being too cute and I got distracted",
+        excuse: "Köpeğim çok tatlı olduğu için dikkatim dağıldı.",
         category: "gaming"
     },    
     {
         id: 829,
-        excuse: "The vibes just weren't that good in the game",
+        excuse: "Oyundaki vibe o kadar da iyi değildi.",
         category: "gaming"
     },
     {
         id: 830,
-        excuse: "My AC isn't working and it's ruining my focus",
+        excuse: "Klimam bozuldu ve dikkatimi dağıtıyor.",
         category: "gaming"
     },
 ];
