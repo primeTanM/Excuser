@@ -32,6 +32,10 @@ All commands accept a optional param on header to change execuses language.
 |  English              | eng                          |
 |  Brazilian Portuguese | pt-br                        |
 |  Bengali              | ben                          |
+|  French               | fren                         |
+|  Hindi                | hin                          |
+|  Turkish              | tr                           |
+
 
 Get a random excuse
 
