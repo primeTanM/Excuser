@@ -3,6 +3,7 @@ var excuses_pt_br = require('./Excuses_pt_br');
 var excuses_ben = require('./Excuses_ben');
 var excuses_hin = require('./Excuses_hindi');
 var excuses_french = require('./excuses_french1');
+var excuses_turkish = require('./excuses_tr');
 
 module.exports = {
     getRandom: function getRandom(numberOfExcuses, language) {
@@ -60,5 +61,7 @@ function GetExcuseByLanguage(language) {
         return excuses_hin;
     else if (language && language ==='fren')
         return excuses_french;
+    else if (language && language ==='tr')
+        return excuses_tr;
     return excuses_eng;
 }
