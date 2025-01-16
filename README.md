@@ -35,6 +35,7 @@ All commands accept a optional param on header to change execuses language.
 |  French               | fren                         |
 |  Hindi                | hin                          |
 |  Turkish              | tr                           |
+|  Persian(Farsi)       | fa                           |
 
 
 Get a random excuse
